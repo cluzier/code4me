@@ -19,6 +19,8 @@ To deploy this project run
 
   
 ## Tech Stack
-**Client:** React, Redux, TailwindCSS
+**Client:** React, TailwindCSS
+
 **Server:** Node, Express
+
 **API:** Stripe, Commerce 
