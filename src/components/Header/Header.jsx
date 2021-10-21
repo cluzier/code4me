@@ -2,9 +2,8 @@ import React from "react";
 import { tw, css } from 'twind/css';
 
 const headerStyle = css`
-  background-color: #FAFAFA;
   min-height: calc(50vh - 35rem);
-  padding-top: 5rem;
+  padding-top: 3rem;
 `;
 
 const Header = () => (

@@ -1,12 +1,17 @@
-import { tw } from 'twind';
+import React from "react";
+import { tw, css } from 'twind/css';
+
+const featuresStyle = css`
+  background-color: #fafafa;
+`;
 
 const Features = () => (
-  <section className={tw(`bg-white pb-6`)}>
-    <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8`)}>
-      <div className={tw(`container mx-auto px-6 p-6 bg-white`)}>
-        <div className={tw(`mb-16 text-center`)}>
-          <h4 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Features</h4>
-          <p className={tw(`mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
+  <section className={tw(featuresStyle, `pb-6`)}>
+    <div className={tw(featuresStyle,`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8`)}>
+      <div className={tw(featuresStyle,`container mx-auto px-6 p-6 bg-white`)}>
+        <div className={tw(featuresStyle,`mb-16 text-center`)}>
+          <h4 className={tw(featuresStyle,`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Features</h4>
+          <p className={tw(`mt-2 text-3xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
             What We Offer
           </p>
         </div>
