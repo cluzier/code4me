@@ -28,9 +28,27 @@ function Navbar({ totalItems }) {
           >
             Code4Me
           </Typography>
+          <Typography
+            component={Link}
+            to="#about"
+            variant="h7"
+            className={styles.title}
+            color="inherit"
+          >
+            About
+          </Typography>
+          <Typography
+            component={Link}
+            to="#team"
+            variant="h7"
+            className={styles.title}
+            color="inherit"
+          >
+            Team
+          </Typography>
           <div className={styles.grow} />
           {location.pathname === "/" && (
-            <div className={styles.button}>
+            <div className={styles.shop}>
               <IconButton
                 component={Link}
                 to="/cart"

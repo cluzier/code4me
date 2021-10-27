@@ -12,10 +12,14 @@ export default makeStyles((theme) => ({
     },
   },
   title: {
-    flexGrow: 1,
     alignItems: "center",
     display: "flex",
     textDecoration: "none",
+    marginLeft: "10px",
+  },
+  shop: {
+    display: "flex",
+    marginLeft: "auto",
   },
   image: {
     marginRight: "10px",
@@ -30,7 +34,7 @@ export default makeStyles((theme) => ({
     },
   },
   grow: {
-    flexGrow: 1,
+    flexShrink: 1,
   },
   search: {
     position: "relative",
