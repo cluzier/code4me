@@ -4,6 +4,7 @@ import { tw, css } from 'twind/css';
 const headerStyle = css`
   min-height: calc(50vh - 35rem);
   padding-top: 3rem;
+  backgroundColor: #fafafa;
 `;
 
 const Header = () => (

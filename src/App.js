@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Products, Navbar, Cart, Checkout, Features, Shop, Header, Footer } from "./components";
+import { Products, Navbar, Cart, Checkout, About, Features, Shop, Header, Footer } from "./components";
 import { commerce } from "./lib/commerce";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -67,6 +67,7 @@ function App() {
       <div>
         <Navbar totalItems={cart.total_items} />
         <Header />
+        <About />
         <Features />
         <Shop />
         <Switch>

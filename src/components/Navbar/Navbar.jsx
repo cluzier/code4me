@@ -39,12 +39,21 @@ function Navbar({ totalItems }) {
           </Typography>
           <Typography
             component={Link}
-            to="#team"
+            to="#features"
             variant="h7"
             className={styles.title}
             color="inherit"
           >
-            Team
+            Features
+          </Typography>
+          <Typography
+            component={Link}
+            to="#shop"
+            variant="h7"
+            className={styles.title}
+            color="inherit"
+          >
+            Shop
           </Typography>
           <div className={styles.grow} />
           {location.pathname === "/" && (

@@ -12,7 +12,7 @@ const Features = () => (
         <div className={tw(featuresStyle,`mb-16 text-center`)}>
           <h4 className={tw(featuresStyle,`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Features</h4>
           <p className={tw(`mt-2 text-3xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
-            What We Offer
+            what we offer
           </p>
         </div>
         <div className={tw(`flex flex-wrap my-12`)}>

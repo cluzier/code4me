@@ -6,12 +6,13 @@ const headerStyle = css`
 `;
 
 const Shop = () => (
-  <header className={tw(headerStyle)}>
-    <div className={tw(`max-w-4xl mx-auto py-16 px-14 `)}>
-      <h2 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-center leading-snug text-gray-800`)}>
-        Our Services
-      </h2>
-    </div>
+  <header className={tw(headerStyle, `mt-14`)}>
+        <div className={tw(`text-center`)}>
+          <h4 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Shop</h4>
+          <p className={tw(`mt-2 text-3xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
+            our packages
+          </p>
+        </div>
   </header>
 );
 
