@@ -8,7 +8,7 @@ const wrapper = css`
 
 const About = () => (
     <section className={tw(`mt-24 pb-6`)}>
-        <div className={tw(`mb-16 text-center`)}>
+        <div className={tw(`mb-8 text-center`)}>
             <h4 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>About</h4>
             <p className={tw(`mt-2 text-3xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
                 a little about us
@@ -16,17 +16,13 @@ const About = () => (
         </div>
         <div className={tw(`flex`)}>
             <div className={wrapper}>
-                <h4 className={tw(`text-base text-indigo-600 w-3/4 m-20 font-semibold tracking-wide uppercase`)}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur risus lacinia metus eleifend ornare ut et mi. 
-                    Aenean augue sem, consectetur sed ligula non, consequat commodo ante.
-                    <br />
-                    <br />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur risus lacinia metus eleifend ornare ut et mi. 
-                    Aenean augue sem, consectetur sed ligula non, consequat commodo ante.
-                </h4>
-            </div>
-            <div className={tw(`m-20 min-h-0 md:min-h-full`)}>
-                <img src="https://cdn.dribbble.com/users/1787323/screenshots/6371250/lazy_programmer_dribbble-02_4x.png?compress=1&resize=1600x1200" alt="about us" />
+                <p className={tw(`ml-16 mr-16 leading-loose text-gray-500 `)}>
+                    Code4Me is run by a group of dedicated Full Stack Developers striving to make the internet a modern playground for
+                    small businesses and customers alike.
+                    While working for you, we make sure to use the most modern frameworks to date to make sure you get what you paid for
+                    as well as get the most out of your product. Google SEO is implemented on each site we produce to make sure that Google sees and 
+                    lists your webpage on the internet for everyone to see. No wondering if your site is public or not.
+                </p>
             </div>
         </div>
     </section>
