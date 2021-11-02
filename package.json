@@ -1,5 +1,9 @@
 {
   "name": "code4me",
+  "author": {
+    "name": "Conner Luzier",
+    "email": "connerluzier@outlook.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
