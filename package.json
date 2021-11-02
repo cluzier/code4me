@@ -4,6 +4,10 @@
     "name": "Conner Luzier",
     "email": "connerluzier@outlook.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cluzier/code4me"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
