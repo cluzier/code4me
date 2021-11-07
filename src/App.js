@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Products, Navbar, Cart, Checkout, About, Features, Shop, Header, Footer } from "./components";
+import { Products, Navbar, Cart, Checkout, About, Features, Shop, Reviews, Header, Footer } from "./components";
 import { commerce } from "./lib/commerce";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -91,6 +91,7 @@ function App() {
             />
           </Route>
         </Switch>
+        <Reviews />
         <Footer />
       </div>
     </Router>
