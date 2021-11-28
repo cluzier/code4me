@@ -24,3 +24,9 @@ To deploy this project run
 **Server:** Node, Express
 
 **API:** Stripe, Commerce 
+
+## Screenshots
+[![Image of PrefaceCSS](https://github.com/cluzier/code4me/blob/master/screenshots/Screen%20Shot%202021-11-28%20at%205.34.02%20PM.png)](https://github.com/cluzier/code4me)
+[![Image of PrefaceCSS](https://github.com/cluzier/code4me/blob/master/screenshots/Screen%20Shot%202021-11-28%20at%205.34.08%20PM.png)](https://github.com/cluzier/code4me)
+[![Image of PrefaceCSS](https://github.com/cluzier/code4me/blob/master/screenshots/Screen%20Shot%202021-11-28%20at%205.34.14%20PM.png)](https://github.com/cluzier/code4me)
+[![Image of PrefaceCSS](https://github.com/cluzier/code4me/blob/master/screenshots/Screen%20Shot%202021-11-28%20at%205.34.22%20PM.png)](https://github.com/cluzier/code4me)
