@@ -2,10 +2,7 @@ import React, { useEffect, useState } from "react";
 import Marquee from "react-marquee-slider";
 import styled from "styled-components";
 import times from "lodash/times";
-// import { withSize } from "react-sizeme";
 import { nanoid } from "nanoid";
-
-// import FullWidth from "../components/FullWidth";
 
 const FullWidth = styled.div`
   width: 100vw;
@@ -88,6 +85,14 @@ const Reviews = ({ size, onStartPerformance, onEndPerformance }) => {
     scale = 1;
   }
 
+  var textArray = [
+    'Amazing service, Ill be recommending this to friends.',
+    'Fast Delivery! High quality code. Great work!',
+    'Conner helped me with all of my problems, I will definitely be back!',
+    'I am very happy with the service, I will be recommending this to my friends.',
+    'Low rates, high quality content.'
+  ];
+
   return (
     <FullWidth>
       <Height height={600}>
@@ -107,8 +112,7 @@ const Reviews = ({ size, onStartPerformance, onEndPerformance }) => {
                 </Avatar>
                 <Content scale={scale}>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Index: {id}
+                    {textArray[id]}
                   </p>
                 </Content>
               </Review>
